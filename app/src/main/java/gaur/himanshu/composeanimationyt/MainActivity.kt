@@ -22,7 +22,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    AnimatedVisibilityExampleSecond()
+//                    AnimatedVisibilityExampleSecond()
+
+                    /**Part 2 -> AnimatedContent()**/
+                    AnimatedContentExampleBasic()
+//                    AnimatedContentExampleAdvanced()
                 }
             }
         }
