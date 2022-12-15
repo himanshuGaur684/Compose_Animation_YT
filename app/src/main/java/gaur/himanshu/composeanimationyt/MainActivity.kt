@@ -25,8 +25,8 @@ class MainActivity : ComponentActivity() {
 //                    AnimatedVisibilityExampleSecond()
 
                     /**Part 2 -> AnimatedContent()**/
-                    AnimatedContentExampleBasic()
-//                    AnimatedContentExampleAdvanced()
+//                    AnimatedContentExampleBasic()
+                    AnimatedContentExampleAdvanced()
                 }
             }
         }
