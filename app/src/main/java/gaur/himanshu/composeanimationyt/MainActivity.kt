@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
                     /**Part 2 -> AnimatedContent()**/
 //                    AnimatedContentExampleBasic()
-                    AnimatedContentExampleAdvanced()
+//                    AnimatedContentExampleAdvanced()
                 }
             }
         }

@@ -69,7 +69,6 @@ fun AnimatedContentExampleBasic() {
 
 }
 
-
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun AnimatedContentExampleAdvanced() {
@@ -78,13 +77,15 @@ fun AnimatedContentExampleAdvanced() {
         mutableStateOf(false)
     }
 
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center){
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Card(modifier = Modifier
             .clickable { expanded = !expanded }
             .padding(12.dp), elevation = 12.dp) {
 
             AnimatedContent(
-                modifier=Modifier.padding(12.dp).background(color=Color.Green),
+                modifier = Modifier
+                    .padding(12.dp)
+                    .background(color = Color.Green),
                 targetState = expanded,
                 transitionSpec = {
                     // new value ka enter transition
@@ -95,13 +96,19 @@ fun AnimatedContentExampleAdvanced() {
 
                         if (expanded) {
                             keyframes {
-                                IntSize(width = targetSize.width, height = initialSize.height) at 150
+                                IntSize(
+                                    width = targetSize.width,
+                                    height = initialSize.height
+                                ) at 150
                                 durationMillis = 1000
                             }
 
                         } else {
                             keyframes {
-                                IntSize(width = initialSize.width, height = targetSize.height) at 150
+                                IntSize(
+                                    width = initialSize.width,
+                                    height = targetSize.height
+                                ) at 150
                                 durationMillis = 1000
                             }
                         }
@@ -121,14 +128,14 @@ fun AnimatedContentExampleAdvanced() {
     }
 
 
-
 }
-
 
 @Composable
 fun Expaned() {
     Text(
-        modifier = Modifier.background(color=Color.Green).padding(12.dp),
+        modifier = Modifier
+            .background(color = Color.Green)
+            .padding(12.dp),
         text =
         "Artificial intelligence was founded as an academic discipline in 1956, and in the years since has experienced several waves of optimism,[6][7] followed by disappointment and the loss of funding (known as an \"AI winter\"),[8][9] followed by new approaches, success and renewed funding.[7][10] AI research has tried and discarded many different approaches since its founding, including simulating the brain, modeling human problem solving, formal logic, large databases of knowledge and imitating animal behavior. In the first decades of the 21st century, highly mathematical-statistical machine learning has dominated the field, and this technique has proved highly successful, helping to solve many challenging problems throughout industry and academia.[10][11]",
     )
@@ -142,7 +149,8 @@ fun Shrink() {
         contentDescription = null,
         modifier = Modifier
             .padding(12.dp)
-            .size(50.dp).background(color=Color.Green)
+            .size(50.dp)
+            .background(color = Color.Green)
     )
 
 }
