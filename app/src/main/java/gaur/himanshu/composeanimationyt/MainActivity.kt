@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
                     /**Part 2 -> AnimatedContent()**/
 //                    AnimatedContentExampleBasic()
 //                    AnimatedContentExampleAdvanced()
+                    /**Part 3 -> animateColorAsState() and updateTransition() **/
+//                    BasicAnimations()
+                    BasicAnimationsTranstions()
                 }
             }
         }
