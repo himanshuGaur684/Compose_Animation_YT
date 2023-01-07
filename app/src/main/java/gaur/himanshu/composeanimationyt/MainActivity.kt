@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 //                    AnimatedContentExampleAdvanced()
                     /**Part 3 -> animateColorAsState() and updateTransition() **/
 //                    BasicAnimations()
-                    BasicAnimationsTranstions()
+//                    BasicAnimationsTranstions()
                 }
             }
         }
