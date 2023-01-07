@@ -30,6 +30,9 @@ class MainActivity : ComponentActivity() {
                     /**Part 3 -> animateColorAsState() and updateTransition() **/
 //                    BasicAnimations()
 //                    BasicAnimationsTranstions()
+                    /**Part 4 -> animateContentSize() and CrossFade() **/
+//                    AnimateContentSize()
+//                    CrossFadeAnim()
                 }
             }
         }
