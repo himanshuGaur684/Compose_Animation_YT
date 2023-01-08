@@ -23,7 +23,6 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
 //                    AnimatedVisibilityExampleSecond()
-
                     /**Part 2 -> AnimatedContent()**/
 //                    AnimatedContentExampleBasic()
 //                    AnimatedContentExampleAdvanced()
@@ -33,6 +32,8 @@ class MainActivity : ComponentActivity() {
                     /**Part 4 -> animateContentSize() and CrossFade() **/
 //                    AnimateContentSize()
 //                    CrossFadeAnim()
+                    /**Part 5 -> Keyframe Animation Spec**/
+                    KeyFrameAnim()
                 }
             }
         }
